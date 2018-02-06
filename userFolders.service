@@ -1,0 +1,9 @@
+[Unit]
+Description=User Folder Setup
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/userFolders.sh
+
+[Install]
+WantedBy=custom.target 
